@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header-web {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 0px 2px black;
+}
+.header-web .loglo {
+  width: 30%;
+  float: left;
+  height: 50%;
+
+  margin-top: 25px;
+}
+.header-web .loglo img {
+  width: 40%;
+  height: 100%;
+  object-fit: contain;
+  margin-left: 70px;
+}
+.header-web .menu {
+  width: 49%;
+  float: left;
+  margin-left: 1%;
+  height: 100%;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header-web .menu a {
+  margin-right: 20px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.header-web .menu a:hover{
+transform: scale(90%);
+
+}
+.header-web .menu a i {
+  font-size: large;
+}
+.header-web .shearch {
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+ 
+}
+.header-web .shearch a {
+  margin-right: 20px;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.header-web .shearch a:hover{
+ transform: scale(90%);
+}
+.header-web .shearch a i {
+  font-size: large;
+}
+.background-web{
+  width: 100%;
+   height: 500px;
+  
+ 
+}
+.background-web .img{
+  width: 100%;
+  height:500px;
+  z-index: 1; 
+  position: absolute; 
+}
+.background-web .img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.background-web .tittle{
+  width: 500px;
+  height: 100px;
+  margin-left:435px;
+  margin-top: 10px;
+
+  z-index: 2;
+  position: absolute; 
+  
+}
+.box{
+  width: 100%;
+  height: 44%;
+  margin-bottom: 2px;
+  
+   
+}
+.box h1{
+  margin: 0;
+  margin-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  color: white;
+}
+ hr{
+  border: none;
+  background-color: white;
+  height: 5px;
+   width: 100%;
+   margin:0;
+  
+ }
+.box1{
+ 
+  width: 100%;
+  height: 50%;
+  
+  /* background-color: aqua; */
+}
+  
+ 
